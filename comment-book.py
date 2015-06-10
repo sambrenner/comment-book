@@ -60,7 +60,7 @@ def find_comments_in_file(file_path):
         print e
         pass
 
-for root, dirs, files in os.walk("../"):
+for root, dirs, files in os.walk("./"):
     for file in files:
         file_path = os.path.join(root, file)
 
