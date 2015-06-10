@@ -14,27 +14,27 @@ These aren't always perfect - one major problem is that they don't check if they
 
 ### `// comment`
 
-    (?<!http:)\/\/.*\n
+`(?<!http:)\/\/.*\n`
 
 ### `/* comment */`
 
-    \/\*.*?\*\/
+`\/\*.*?\*\/`
 
 ### `<!-- comment -->`
 
-    \<!--.*?--\>
+`\<!--.*?--\>`
     
 ### `{* comment *}`
 
-    {\*.*?\*}
+`{\*.*?\*}`
     
 ### `# comment`
 
-    #.*\n
+`#.*\n`
 
     
 ### `''' comment '''`
 
-    '''.*?'''
+`'''.*?'''`
     
 
