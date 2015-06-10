@@ -29,7 +29,7 @@ def find_comments_in_file(file_path):
         elif file_ext == ".css":
             block_comments = re.findall("(\/\*.*?\*\/)", buffer, re.DOTALL)
 
-        elif file_ext == ".txt":
+        elif file_ext == ".html":
             angle_comments = re.findall("(\<!--.*?--\>)", buffer, re.DOTALL)
             smarty_comments = re.findall("({\*.*?\*})", buffer, re.DOTALL)
 
